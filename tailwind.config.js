@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sacramento: ['Sacramento', 'cursive'],
+        unicaOne: ['Unica One', 'cursive']
+      }
+    },
   },
   plugins: [],
 }
