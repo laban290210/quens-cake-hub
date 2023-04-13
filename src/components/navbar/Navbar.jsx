@@ -35,7 +35,7 @@ const Navbar = () => {
         <img class="h-15 w-60 cursor-pointer" src={Logo} alt='logo' />
       </NavLink>
       <div>
-        <ul class= "flex justify-start ml-20 items-center">
+        <ul class= "md:flex justify-start ml-20 items-center hidden">
           <Menu />
         </ul>
       </div>
@@ -45,7 +45,7 @@ const Navbar = () => {
             <button class="bg-[#8D3971] px-4 py-2 text-white rounded-full">LOGIN</button>
           </NavLink>
         </div>
-        <div class ="mt-1" >
+        <div class ="mt-1 cursor-pointer" >
           {toggleMenu
           ? <RiCloseLine color='#fff' size={27} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line color='#fff' size={27} onClick={() => setToggleMenu(true)} />
