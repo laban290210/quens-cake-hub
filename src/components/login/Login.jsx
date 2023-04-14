@@ -7,8 +7,8 @@ import {FcGoogle} from 'react-icons/fc'
 
 const Login = () => {
   return (
-    <div class='flex justify-start items-center flex-col h-screen'>
-      <div class='relative w-full h-full'>
+    <div class='flex justify-start items-center flex-col h-full w-full'>
+      <div class=' w-full h-full'>
         <img 
         src={Cake}
         class='w-full h-full object-cover opacity-90'
@@ -78,11 +78,11 @@ const Maincontainer = styled.div`
   }
   @media only screen and (min-width: 411px) {
     width: 80vw;
-    height: 80vh;
+    height: 150vh;
   }
   @media only screen and (min-width: 768px) {
     width: 50vw;
-    height: 80vh;
+    height: 150vh;
   }
   @media only screen and (min-width: 1024px) {
     width: 55vw;
