@@ -11,28 +11,59 @@ const Cakes = () => {
           <li class=" border-solid border-2 border-black rounded-2xl mb-3">
             <img className=' h-3/4 w-full rounded-t-2xl' src={Cake} alt='Cake' />
             <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Chocolate Cake</h4>
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Price per Kg: KSh 1000 </h4>
           </li>
-          <li>
-            <img src={Cake} alt='Cake' />
+          <li class=" border-solid border-2 border-black rounded-2xl mb-3">
+            <img className=' h-3/4 w-full rounded-t-2xl' src={Cake} alt='Cake' />
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Chocolate Cake</h4>
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Price per Kg: KSh 1000 </h4>
           </li>
-          <li>
-            <img src={Cake} alt='Cake' />
+          <li class=" border-solid border-2 border-black rounded-2xl mb-3">
+            <img className=' h-3/4 w-full rounded-t-2xl' src={Cake} alt='Cake' />
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Chocolate Cake</h4>
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Price per Kg: KSh 1000 </h4>
           </li>
-          <li>
-            <img src={Cake} alt='Cake' />
+          <li class=" border-solid border-2 border-black rounded-2xl mb-3">
+            <img className=' h-3/4 w-full rounded-t-2xl' src={Cake} alt='Cake' />
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Chocolate Cake</h4>
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Price per Kg: KSh 1000 </h4>
           </li>
-          <li>
-            <img src={Cake} alt='Cake' />
+          <li class=" border-solid border-2 border-black rounded-2xl mb-3">
+            <img className=' h-3/4 w-full rounded-t-2xl' src={Cake} alt='Cake' />
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Chocolate Cake</h4>
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Price per Kg: KSh 1000 </h4>
           </li>
-          <li>
-            <img src={Cake} alt='Cake' />
+          <li class=" border-solid border-2 border-black rounded-2xl mb-3">
+            <img className=' h-3/4 w-full rounded-t-2xl' src={Cake} alt='Cake' />
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Chocolate Cake</h4>
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Price per Kg: KSh 1000 </h4>
           </li>
-          <li>
-            <img src={Cake} alt='Cake' />
+          <li class=" border-solid border-2 border-black rounded-2xl mb-3">
+            <img className=' h-3/4 w-full rounded-t-2xl' src={Cake} alt='Cake' />
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Chocolate Cake</h4>
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Price per Kg: KSh 1000 </h4>
           </li>
-          <li>
-            <img src={Cake} alt='Cake' />
+          <li class=" border-solid border-2 border-black rounded-2xl mb-3">
+            <img className=' h-3/4 w-full rounded-t-2xl' src={Cake} alt='Cake' />
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Chocolate Cake</h4>
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Price per Kg: KSh 1000 </h4>
           </li>
+          <li class=" border-solid border-2 border-black rounded-2xl mb-3">
+            <img className=' h-3/4 w-full rounded-t-2xl' src={Cake} alt='Cake' />
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Chocolate Cake</h4>
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Price per Kg: KSh 1000 </h4>
+          </li>
+          <li class=" border-solid border-2 border-black rounded-2xl mb-3">
+            <img className=' h-3/4 w-full rounded-t-2xl' src={Cake} alt='Cake' />
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Chocolate Cake</h4>
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Price per Kg: KSh 1000 </h4>
+          </li>
+          <li class=" border-solid border-2 border-black rounded-2xl mb-3">
+            <img className=' h-3/4 w-full rounded-t-2xl' src={Cake} alt='Cake' />
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Chocolate Cake</h4>
+            <h4 class='mt-1 ml-3 font-unicaOne font-semibold text-2xl'>Price per Kg: KSh 1000 </h4>
+          </li>
+          
         </ul>
       </div>
       <Footer />
