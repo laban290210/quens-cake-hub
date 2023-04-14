@@ -30,7 +30,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
 
   return (
-    <div class="p-4 bg-[#D498CA] flex items-center justify-between  mt-2 ml-4 mr-4  rounded-md h-13 ">
+    <div class="p-4 bg-[#D498CA] flex items-center justify-between  mt-2 ml-2 mr-2  rounded-md h-13 ">
       <NavLink to="/" class="mr-1" >
         <img class="h-15 w-60 cursor-pointer" src={Logo} alt='logo' />
       </NavLink>
@@ -45,7 +45,7 @@ const Navbar = () => {
             <button class="bg-[#8D3971] px-4 py-2 text-white rounded-full">LOGIN</button>
           </NavLink>
         </div>
-        <div class ="mt-1 cursor-pointer" >
+        <div class ="mt-1 cursor-pointer md:hidden" >
           {toggleMenu
           ? <RiCloseLine color='#fff' size={27} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line color='#fff' size={27} onClick={() => setToggleMenu(true)} />

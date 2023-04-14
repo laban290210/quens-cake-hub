@@ -11,7 +11,7 @@ const footer = () => {
   return (
     <div class=" bg-[#D498CA] grid grid-cols-1 sm:grid-cols-1  lg:grid-cols-4 gap-6 sm:px-8 px-5  " >
       <div class=' sm: items-center'>
-      <img  class='h-40 lg:h-60 w-40 mr-60 sm:w-60' src={Logo1} alt='logo1'/>
+      <img  class='h-40 md:h-52 lg:h-60 w-40 mr-60 sm:w-60' src={Logo1} alt='logo1'/>
       </div>
       <div class= 'md:flex  md:gap-32 lg:gap-60 mt-10'>
         <div class='mb-10'>
