@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {NavLink} from "react-router-dom"
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 
-import './navbar.css'
+
 import Logo from '../../assets/logo1.png'
 
 
@@ -30,7 +30,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
 
   return (
-    <div class="p-4 bg-[#D498CA] flex items-center justify-between  mt-2 ml-2 mr-2  rounded-md h-13 ">
+    <div class="p-4 bg-[#D498CA] flex items-center justify-between mt-2 ml-2 mr-2  rounded-md h-13 ">
       <NavLink to="/" class="mr-1" >
         <img class="h-15 w-60 cursor-pointer" src={Logo} alt='logo' />
       </NavLink>
@@ -42,7 +42,7 @@ const Navbar = () => {
       <div class="flex">
         <div class="mr-4" >
           <NavLink to="/login">
-            <button class="bg-[#8D3971] px-4 py-2 text-white rounded-full">LOGIN</button>
+            <button class="bg-[#8D3971] px-4 py-2 text-white rounded-full hover:opacity-75 duration-200">LOGIN</button>
           </NavLink>
         </div>
         <div class ="mt-1 cursor-pointer md:hidden" >

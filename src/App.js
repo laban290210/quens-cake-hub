@@ -3,10 +3,11 @@ import './App.css';
 import {Route, Routes} from 'react-router-dom';
 
 import { Navbar,Header,Footer,Accesories,Cakes,Home,Login } from './components';
+import Whatsapp from "./assets/whatsapp.png"
 
 const App = () => {
   return (
-    <div>
+    <div className=' bg-pink-100'>
       
         
         <Routes>
@@ -17,7 +18,9 @@ const App = () => {
             
             
         </Routes>
-        
+        <div className='fixed bottom-0 right-0'>
+          <a href=''><img src={Whatsapp} alt='Whatsapp' className=' md:w-28 w-24' /></a>
+        </div>
       
     </div>
   )

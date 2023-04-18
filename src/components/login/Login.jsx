@@ -78,7 +78,7 @@ const Maincontainer = styled.div`
   }
   @media only screen and (min-width: 411px) {
     width: 80vw;
-    height: 150vh;
+    height: 200vh;
   }
   @media only screen and (min-width: 768px) {
     width: 50vw;
@@ -109,6 +109,7 @@ const ButtonContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  
 `;
 
 const HorizontalRule =styled.hr`
